@@ -1,15 +1,12 @@
 {
-    "name": "josue/parcial02",
-    "description": "parcial02ml23011",
+    "name": "josue/prestamos",
+    "description": "Sistema de prestamo de equipo audiovisual",
+    "require": {
+        "php": ">=8.2"
+    },
     "autoload": {
         "psr-4": {
-            "Josue\\Parcial02\\": "src/"
+            "App\\": "src/"
         }
-    },
-    "authors": [
-        {
-            "name": "skip"
-        }
-    ],
-    "require": {}
+    }
 }
