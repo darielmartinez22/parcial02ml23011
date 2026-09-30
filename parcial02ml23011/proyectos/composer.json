@@ -1,5 +1,5 @@
 {
-    "name": "josue/prestamos",
+    "name": "josue/proyectos",
     "description": "Sistema de prestamo de equipo audiovisual",
     "require": {
         "php": ">=8.2"
