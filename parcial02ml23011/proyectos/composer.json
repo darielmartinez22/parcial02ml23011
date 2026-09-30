@@ -1,0 +1,15 @@
+{
+    "name": "josue/parcial02",
+    "description": "parcial02ml23011",
+    "autoload": {
+        "psr-4": {
+            "Josue\\Parcial02\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "skip"
+        }
+    ],
+    "require": {}
+}

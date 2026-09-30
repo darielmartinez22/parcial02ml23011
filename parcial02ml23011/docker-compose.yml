@@ -1,0 +1,18 @@
+services:
+  apache:
+    build: ./apache
+    container_name: server-apache2-2
+    restart: always
+    volumes:
+      - ./proyectos:/var/www/html
+    ports:
+      - "8089:80"
+    networks:
+      - red-servidores
+
+volumes:
+  pgdata2:
+  pgadmin-data2:
+
+networks:
+  red-servidores:
